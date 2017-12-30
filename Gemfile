@@ -20,6 +20,8 @@ gem 'uglifier', '>= 1.3.0'
 # gem 'therubyracer', platforms: :ruby
 gem 'pg', group: :production
 
+gem 'dotenv-rails', :groups => [:development, :test]
+
 gem 'rails_12factor', group: :production
 # Use CoffeeScript for .coffee assets and views
 # stripe for taking payments
